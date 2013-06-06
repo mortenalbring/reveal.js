@@ -1,0 +1,141 @@
+/*!
+ * chem.css
+ * http://github.com/jpswalsh/chem.css
+ * MIT licensed
+ *
+ * Copyright (C) 2013 James Walsh, http://jpswalsh.com
+ */
+chemtitle {
+font-size: 2.09em;
+font-family: "League Gothic", Impact, sans-serif;
+}
+slidetitle {
+font-size: 2.07em;
+font-variant: small-caps;
+margin: 0 0 20px 0;
+line-height: 0.9em;
+letter-spacing: 0.01em;
+text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+formula {
+font-family: "Times New Roman",Times,serif;
+}
+ 
+ rs,ls,rd,rd-bh,rd-th,ld,ld-bh,ld-th {
+	position:relative;
+	display:inline;
+}
+
+rs xsup,rs xsub,rd xsup,rd xsub,rd-bh xsup,rd-bh xsub,rd-th xsup,rd-th xsub {
+	line-height:normal;
+	font-size:.52em;
+	padding:0 .27em 0 .15em;
+}
+
+ls xsup,ls xsub,ld xsup,ld xsub,ld-bh xsup,ld-bh xsub,ld-th xsup,ld-th xsub {
+	line-height:normal;
+	font-size:.52em;
+	padding:0 .15em;
+}
+
+rs xsub {
+	position:relative;
+	bottom:0;
+	left:0;
+	vertical-align:bottom;
+}
+
+rs xsup {
+	position:relative;
+	bottom:0;
+	left:0;
+	vertical-align:top;
+}
+
+rd-bh xsup,rd xsup {
+	position:absolute;
+	top:0;
+	left:0;
+	vertical-align:top;
+}
+
+rd-bh xsub,rd xsub {
+	position:relative;
+	bottom:0;
+	left:0;
+	vertical-align:bottom;
+}
+
+rd-th xsup {
+	position:relative;
+	top:0;
+	left:0;
+	vertical-align:top;
+}
+
+rd-th xsub {
+	position:absolute;
+	bottom:0;
+	left:0;
+	vertical-align:bottom;
+}
+
+ls xsub {
+	position:relative;
+	bottom:0;
+	left:0;
+	vertical-align:bottom;
+}
+
+ls xsup {
+	position:relative;
+	bottom:0;
+	left:0;
+	vertical-align:top;
+}
+
+ld-bh xsup,ld xsup {
+	position:absolute;
+	top:0;
+	right:0;
+	vertical-align:top;
+}
+
+ld-bh xsub,ld xsub {
+	position:relative;
+	bottom:0;
+	right:0;
+	vertical-align:bottom;
+}
+
+ld-th xsup {
+	position:relative;
+	top:0;
+	right:0;
+	vertical-align:top;
+}
+
+ld-th xsub {
+	position:absolute;
+	bottom:0;
+	right:0;
+	vertical-align:bottom;
+}
+
+xsc {
+	font-size:85%;
+}
+
+
+table {
+	width: 70%;
+	margin: 0 15%;
+}
+
+td {
+	padding: 5px;
+	margin: 5px;
+	background-color: #cccccc;
+}
